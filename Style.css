@@ -1,0 +1,43 @@
+@font-face{
+    font-family:Letra1;
+    src:url(Dimbo\ Italic.ttf);
+}
+
+body{
+    background-color: #000000;
+}
+
+.contenedor{
+    width: 500px;
+    min-height: 200px;
+    background-color: aqua;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 10px;
+    font-family: Letra1;
+    overflow: hidden;
+}
+
+img{
+    border: 1px solid black;
+    float: right;
+}
+
+h3{
+    margin-bottom: 0px;
+}
+
+ul, p{
+    margin-bottom: 10px;
+}
+
+input, textarea{
+    display: block;
+    margin-bottom: 10px;
+}
+
+center{
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
